@@ -79,12 +79,18 @@
   font-weight: 500;
   color: #212529;
 }
+.comment-name .badge {
+  position: relative;
+  top: -3px;
+  left: 5px;
+}
 .comment-name .time {
   font-size: 14px;
   line-height: 14px;
   color: #99a2aa;
   font-weight: 300;
   display: inline-block;
+  margin-left: 10px;
 }
 .comment-text {
   color: #212529;
@@ -104,4 +110,11 @@ a:active {
   outline: none;
   text-decoration: none;
   color: #0168fa;
+}
+
+.comment-pagination {
+  position: relative;
+  margin-top: 30px;
+  left: 50%;
+  margin-bottom: 20px;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "./components/Layout";
 import { Route } from "react-router";
 //components
-import FComment from "./components/comment/F-Comment";
+import FComment from "./components/rebuild-comment-fpt/f-comment/F-Comment";
 import Home from "./components/home/Home";
 
 function App() {

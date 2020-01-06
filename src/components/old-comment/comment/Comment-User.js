@@ -1,6 +1,6 @@
 import React from "react";
 
-const CommentBox = () => {
+const CommentUser = () => {
   return (
     <div className="comment-box">
       <div className="comment-box-avatar">
@@ -19,4 +19,4 @@ const CommentBox = () => {
   );
 };
 
-export default CommentBox;
+export default CommentUser;

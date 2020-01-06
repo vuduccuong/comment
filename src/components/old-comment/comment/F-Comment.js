@@ -4,9 +4,9 @@ import React, { Fragment, useState } from "react";
 import "./f-comment.css";
 
 //comment
-import Modal from "../modal/Modal";
-import Error from "../error/Error";
-import CommentBox from "../comment/Comment-Box";
+import Modal from "../rebuild-comment-fpt/modal/Modal";
+import Error from "../rebuild-comment-fpt/error/Error";
+import CommentUser from "../comment/Comment-User";
 
 const FComment = () => {
   const [showModal, setShowModal] = useState(false);
@@ -71,7 +71,7 @@ const FComment = () => {
           </div>
           <div className="row">
             <div className="comment">
-              <CommentBox />
+              <CommentUser />
             </div>
           </div>
         </div>
